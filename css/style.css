@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #ccc;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* argentina flat start */
+.column-left {
+    float: left;
+    margin: 10px;
+}
+
+.arg--main-box {
+    width: 450px;
+    height: 300px;
+    margin: auto;
+}
+
+.arg-box1 {
+    width: 100%;
+    height: 100px;
+    background-color: #8BD3F5;
+
+}
+
+.arg-box2 {
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    display: flex;
+
+}
+
+.arg-box2 img {
+    width: 80px;
+    margin: auto;
+}
+
+.arg-box3 {
+    width: 100%;
+    height: 100px;
+    background-color: #8BD3F5;
+
+}
+
+/* argentina flag end */
+
+/* green land flag start */
+
+.green-land-flag {
+    width: 450px;
+    height: 300px;
+    background: linear-gradient(white 50%, red 50%);
+    margin: auto;
+}
+
+.green-land-flag::after {
+    position: relative;
+    content: '';
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(red 50%, white 50%);
+    left: 20%;
+    top: 25%;
+    display: block;
+    border-radius: 50%;
+}
+
+/* green land flag end */
+
+/* belgium flag start */
+.belgium {
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    background: linear-gradient(to right, black 33%, yellow 33%, yellow 66%, red 33%);
+}
+
+/* belgium flag end  */
+
+/* espain flag start */
+.espain {
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    background: linear-gradient(to bottom, red 25%, yellow 25%, yellow 75%, red 75%);
+}
+
+/* espain flag end */
+
+
+/* czeck repubick start */
+.czeck-republick {
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    background: linear-gradient(white 50%, red 50%);
+}
+
+.czeck-trangular {
+    width: 0;
+    height: 0;
+    border-left: 150px solid blue;
+    border-bottom: 150px solid transparent;
+    border-top: 150px solid transparent;
+}
+
+/* czeck republick end */
+
+
+/* Eritrea start */
+.eritia-flag {
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    background: linear-gradient(#00a650 50%, #8dd8f8 50%);
+}
+
+.eritrea-trangular {
+    width: 0;
+    height: 0;
+    border-left: 450px solid #ED1B24;
+    border-bottom: 150px solid transparent;
+    border-top: 150px solid transparent;
+    position: relative;
+}
+
+.eritrea-trangular img {
+    margin: auto;
+    width: 120px;
+    position: absolute;
+    right: 300px;
+    top: -50px;
+}
+
+/* Eritrea end */
+
+/* nigeria flag  start*/
+
+.nigeria-flag {
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    background: linear-gradient(#f8a755 33%, #ffffff 33%, #ffffff 66%, #00a650 33%);
+    display: flex;
+}
+
+.nigeria-circle {
+    width: 50px;
+    height: 50px;
+    background: #f8a755;
+    margin: auto;
+    border-radius: 50%;
+}
+
+/* end nigeria flag */
+
+/* bahamas flag start*/
+.bahamas-flag {
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    background: linear-gradient(#01aef0 33%, #fef200 33%, #fef200 66%, #01aef0 33%);
+}
+
+.bahamas-tringle {
+    width: 100%;
+    height: 100%;
+    border-left: 200px solid black;
+    border-top: 150px solid transparent;
+    border-bottom: 150px solid transparent;
+}
+
+/* end bahamas flag */
+
+
+/* cuba flag start */
+.cuba-flag {
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    background: linear-gradient(#0066b3 20%, white 20%, white 40%, #0066b3 40%, #0066b3 40%, #0066b3 60%, white 60%, white 80%, #0066b3 80%, #0066b3 80%);
+}
+
+.cuba-tringle {
+    width: 100%;
+    height: 100%;
+    border-left: 180px solid red;
+    border-bottom: 150px solid transparent;
+    border-top: 150px solid transparent;
+    position: relative;
+}
+
+.cuba-tringle img {
+    position: absolute;
+    width: 70px;
+    left: -55%;
+    top: -45px;
+}
+
+/* end cuba flag */
+
+/* kuwait flag start */
+.kuwait-flag {
+    width: 450px;
+    height: 300px;
+    margin: auto;
+    background: linear-gradient(#239E46 33%, #FFFFFF 33%, #ffffff 66%, #BE0027 33%);
+}
+
+.kuwait-tringle {
+    width: 100%;
+    height: 100%;
+    border-left: 150px solid black;
+    border-top: 100px solid transparent;
+    border-bottom: 102px solid transparent;
+}
+
+/* end kuwait flag */
+
+/* brazil flag start */
+.brazil-flag{
+    width: 450px;
+    height: 300px;
+    background: #009C37;
+    display: flex;
+}
+.brazil-tringle{width: 150px;height: 150px;background: yellow;margin: auto;transform: rotate(45deg); display: flex;}
+.brazil-tringle img {
+    width: 80px;
+    margin: auto;
+}
+/* end brazil flag */
+
+/* benin flag start */
+.benin-flag{
+    width: 450px;
+    height: 300px;
+    background:#00A651;
+}
+.benin-tringle {
+    background: linear-gradient(#FFF200 50%, #ED1C24 50%);
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+/* end benin flag */
+
+/* canada flag start */
+.canada-flag{
+    width: 450px;
+    height: 300px;
+    background: linear-gradient(to right, red 25%, white 25%, white 75%, red 75%);
+    display: flex;
+}
+.canada-flag img {
+    width: 200px;
+    margin: auto;
+}
+/* end canada flag */
+
+/* belize flag start */
+.belize-flag{
+    width: 450px;
+    height: 300px;
+    background: linear-gradient(to bottom, red 10%, #0066B3 10%, #0066B3 90%, red 10%);
+    display: flex;
+}
+.belize-flag img {
+    width: 200px;
+    margin: auto;
+}
+/* end canada flag */
