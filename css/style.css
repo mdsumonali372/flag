@@ -105,7 +105,7 @@ h2 {
 .czeck-republick {
     width: 450px;
     height: 300px;
-    background: linear-gradient(white 50%, red 50%);
+    background: linear-gradient(to bottom, white 50%, red 50%);
 }
 
 .czeck-trangular {
@@ -123,7 +123,7 @@ h2 {
 .eritia-flag {
     width: 450px;
     height: 300px;
-    background: linear-gradient(#00a650 50%, #8dd8f8 50%);
+    background: linear-gradient(to bottom, #00a650 50%, #8dd8f8 50%);
 }
 
 .eritrea-trangular {
@@ -150,7 +150,7 @@ h2 {
 .niger-flag {
     width: 450px;
     height: 300px;
-    background: linear-gradient(#f8a755 33%, #ffffff 33%, #ffffff 66%, #00a650 33%);
+    background: linear-gradient(to bottom, #f8a755 33%, #ffffff 33%, #ffffff 66%, #00a650 33%);
     display: flex;
 }
 
@@ -168,7 +168,7 @@ h2 {
 .bahamas-flag {
     width: 450px;
     height: 300px;
-    background: linear-gradient(#01aef0 33%, #fef200 33%, #fef200 66%, #01aef0 33%);
+    background: linear-gradient(to bottom, #01aef0 33%, #fef200 33%, #fef200 66%, #01aef0 33%);
 }
 
 .bahamas-tringle {
@@ -186,7 +186,7 @@ h2 {
 .cuba-flag {
     width: 450px;
     height: 300px;
-    background: linear-gradient(#0066b3 20%, white 20%, white 40%, #0066b3 40%, #0066b3 40%, #0066b3 60%, white 60%, white 80%, #0066b3 80%, #0066b3 80%);
+    background: linear-gradient(to bottom, #0066b3 20%, white 20%, white 40%, #0066b3 40%, #0066b3 40%, #0066b3 60%, white 60%, white 80%, #0066b3 80%, #0066b3 80%);
 }
 
 .cuba-tringle {
@@ -212,7 +212,7 @@ h2 {
     width: 450px;
     height: 300px;
     margin: auto;
-    background: linear-gradient(#239E46 33%, #FFFFFF 33%, #ffffff 66%, #BE0027 33%);
+    background: linear-gradient(to bottom, #239E46 33%, #FFFFFF 33%, #ffffff 66%, #BE0027 33%);
 }
 
 .kuwait-tringle {
@@ -246,7 +246,7 @@ h2 {
     background:#00A651;
 }
 .benin-tringle {
-    background: linear-gradient(#FFF200 50%, #ED1C24 50%);
+    background: linear-gradient(to bottom, #FFF200 50%, #ED1C24 50%);
     width: 70%;
     height: 100%;
     float: right;
@@ -310,3 +310,27 @@ h2 {
     margin: auto 0 auto 30px;
 }
 /* end chile flag */
+
+/* austria flag start */
+.austria-flag{
+    width: 450px;
+    height: 300px;
+    background: linear-gradient(to bottom, red 33%, white 33%, white 66%, red 33%);
+}
+/* end austria flag */
+
+/* germany flag start */
+.germany-flag{
+    width: 450px;
+    height: 300px;
+    background: linear-gradient(to bottom, #ED1B24 33%, #FDCE62 33%, #FDCE62 66%, #0E0E0E 33%);
+}
+/* end germnay flag */
+
+/* Guinea flag start */
+.guinea-flag{
+    width: 450px;
+    height: 300px;
+    background: linear-gradient(to right, #ED1B24 33%, #FEF200 33%, #FEF200 66%, #00A650 33%);
+}
+/* end Guinea flag */
